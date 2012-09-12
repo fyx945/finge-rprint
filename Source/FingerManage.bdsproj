@@ -132,7 +132,7 @@
 			<Directories Name="UnitOutputDir">../Dcu</Directories>
 			<Directories Name="PackageDLLOutputDir"></Directories>
 			<Directories Name="PackageDCPOutputDir"></Directories>
-			<Directories Name="SearchPath">E:\Fingerprint\Source\lib;E:\Fingerprint\Source\Unit</Directories>
+			<Directories Name="SearchPath">lib;Unit</Directories>
 			<Directories Name="Packages">vcl;rtl;vclx;vclactnband;dbrtl;vcldb;vcldbx;bdertl;dsnap;dbxcds;DbxCommonDriver;dbexpress;dsnapcon;teeUI;teedb;tee;adortl;vclib;ibxpress;IndyCore;IndySystem;IndyProtocols;xmlrtl;inet;IntrawebDB_90_100;Intraweb_90_100;VclSmp;vclie;websnap;webdsnap;inetdbbde;inetdbxpress;soaprtl;dclOfficeXP;RaizeComponentsVcl;RaizeComponentsVclDb;kbmMemD2006Run;fs11;frx11;frxcs11;fsDB11;frxDB11;fsBDE11;frxBDE11;fsADO11;frxADO11;fsIBX11;frxIBX11;frxe11;fsTee11;frxTee11;XLSRWII30_BDS2006;Package1;dacvcl105;dac105;mydacvcl105;mydac105;odacvcl105;odac105;oraprov105;sdacvcl105;sdac105</Directories>
 			<Directories Name="Conditionals"></Directories>
 			<Directories Name="DebugSourceDirs"></Directories>
