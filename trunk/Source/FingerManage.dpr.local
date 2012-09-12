@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2008-02-27 10:39:09.096.pas,F:\My Documents\RAD Studio\Projects\Unit1.pas=D:\Delphi\Fingerprint\Source\fmMain_.pas</Transaction>
+    <Transaction>2008-02-27 10:39:09.096.dfm,F:\My Documents\RAD Studio\Projects\Unit1.dfm=D:\Delphi\Fingerprint\Source\fmMain_.dfm</Transaction>
+    <Transaction>2008-02-27 10:39:24.488.bdsproj,F:\My Documents\RAD Studio\Projects\Project1.bdsproj=D:\Delphi\Fingerprint\Source\FingerManage.dpr</Transaction>
+  </Transactions>
+</BorlandProject>

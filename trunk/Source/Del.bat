@@ -1,0 +1,12 @@
+del *.~*
+del *.bkm
+del *.ddp
+del DM\*.~*
+del DM\*.bkm
+del DM\*.ddp
+del Form\*.~*
+del Form\*.bkm
+del Form\*.ddp
+del Unit\*.~*
+del Unit\*.bkm
+del Unit\*.ddp

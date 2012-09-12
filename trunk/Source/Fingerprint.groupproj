@@ -1,0 +1,44 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{ced95176-9799-48eb-8adb-4efcff71d3fe}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="FingerManage.bdsproj" />
+    <Projects Include="Fingerprint.bdsproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject xmlns=""><Default.Personality></Default.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="Fingerprint">
+    <MSBuild Projects="Fingerprint.bdsproj" Targets="" />
+  </Target>
+  <Target Name="Fingerprint:Clean">
+    <MSBuild Projects="Fingerprint.bdsproj" Targets="Clean" />
+  </Target>
+  <Target Name="Fingerprint:Make">
+    <MSBuild Projects="Fingerprint.bdsproj" Targets="Make" />
+  </Target>
+  <Target Name="FingerManage">
+    <MSBuild Projects="FingerManage.bdsproj" Targets="" />
+  </Target>
+  <Target Name="FingerManage:Clean">
+    <MSBuild Projects="FingerManage.bdsproj" Targets="Clean" />
+  </Target>
+  <Target Name="FingerManage:Make">
+    <MSBuild Projects="FingerManage.bdsproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="Fingerprint;FingerManage" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="Fingerprint:Clean;FingerManage:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="Fingerprint:Make;FingerManage:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>
